@@ -39,10 +39,11 @@ In this applcation, I am using "GET" and "POST", and templates like layout.html 
 
 Goals can be modified and marked as done or erased in similar way. This will modify the goals dataset accordingly.
 
-![goals marked as complited](static/images/image7.png)
+![goals marked as complited](static/images/image7.png) 
+![goals marked as complited](static/images/image8.png)
 
 Errors are accounted accordingly as in this case after trying to log in with an incorrect password. 
-![goals marked as complited](static/images/image8.png)
+![log in error](static/images/image9.png)
 
 ## Important Security Considerations 
 
