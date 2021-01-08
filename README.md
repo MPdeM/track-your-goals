@@ -47,7 +47,7 @@ Errors are accounted accordingly as in this case after trying to log in with an 
 
 ## Important Security Considerations 
 
-The passwords from the users are hashed before saved using ![werkzeug] (https://werkzeug.palletsprojects.com/en/1.0.x/). Passwords are never directly stored. 
+The passwords from the users are hashed before saved using ![werkzeug](https://werkzeug.palletsprojects.com/en/1.0.x/). Passwords are never directly stored. 
 To ensure privacy of the data the application uses POST requests.
 
 ## Conclusions
@@ -55,7 +55,7 @@ This first version covers:
   - security issues such as how to hash passwords prior to saving in the database and how to use POST request to ensure privacy.
   - (simplistic) error reporting of user errors that can be easily recogniced. 
   - web application design using Bootstrap  
-# Next steps for V 1.1 
+### Next steps for V 1.1 
 Usage of Postgress and SQLAlchemy libraries instead of CS50 libraries. Reactive JS 
 
 ## Acnowledgements
