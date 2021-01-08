@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Summary of goals
+{% endblock %}
+
+{% block main %}
+<b> {{username}}'s  Goals </b>
+<div class="Table-index" id="indextable"> 
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Goal Name</th>
+      <th scope="col">Notes</th>
+      <th scope="col">Completed</th>
+   </tr>
+  </thead>
+  <tbody>
+    {% for goal in goals %}
+      <tr>
+        <th scope="row">{{loop.index}}</th>
+        <td>{{ goal.goal_name }}</td>
+        <td>{{ goal.goal_notes }}</td>
+        <td>{{ goal.done }}</td>
+      </tr>
+
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

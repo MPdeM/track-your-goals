@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add goals
+{% endblock %}
+
+{% block main %}
+
+  <form action="/set_goals" method="post">
+    <div class ="form-row justify-content-center">
+        <div class="col-3">
+            <input class="form-group" name='goal_name' placeholder= "Goal" type = "text">
+        </div>
+        <div class="col-6">
+            <textarea class="form-group" name='goal_notes' placeholder= "Notes" rows="7" cols="50" type = "text"></textarea>
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Submit Goal</button>
+  </form>
+
+{% endblock %}

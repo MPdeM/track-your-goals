@@ -1,0 +1,91 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+    font-family: 'Architects Daughter', cursive;
+}
+
+/* colors for brand */
+nav .navbar-brand .darkblue
+{
+    color: #1F618D;
+}
+nav .navbar-brand .blue
+{
+    color: #1976D2;
+    font-size: 200%;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.Table-index{
+  text-align: left !important;
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding:40px;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+#cent{
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding:20px;
+}
+
+#footer {
+  margin: 0px;
+  text-align: center;
+  font-size: 80%;
+  color: white;
+}
+
+#footer div{
+  margin: 20px;
+}
+
+.container-fluid{
+  padding:20px;
+  margin: 25px;
+}
+
+body{
+  margin:30px;
+  color: gray;
+  font-size: 15px;
+}
+
+html{
+  padding: 25px 25px;
+  background: #2f2f2f;
+
+}
+#page-wrap{
+  background: #2f2f2f;
+  color: #bbb;
+  height: 100%;
+  font-size: 18px;
+
+}
