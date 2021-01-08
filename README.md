@@ -18,7 +18,7 @@ One of the common design patters is MVC - Model View Controller -
     - View: presents the model data to the user ( the html pages)
     - Controller: the piece connecting view and model (the application.py)
 
-  ![Prof David Malan CS50 Harvard](statics/images/MVC_DesignPatern.png)
+  ![Prof David Malan CS50 Harvard](static/images/MVC_DesignPatern.png)
 
 I used CD50 IDE. It will only required instalation and it can be runned on your local host http://localhost:8080/.
 
@@ -26,23 +26,23 @@ I used CD50 IDE. It will only required instalation and it can be runned on your 
 
 In this applcation, I am using "GET" and "POST", and templates like layout.html and it was written following Prof Malan lecture (CS50 Lecture9 Flask).
 
-![run flask application](statics/images/image1.png)
+![run flask application](static/images/image1.png)
  
  First I will need to register because I am a new user
  
- ![directed to /register ](statics/images/image3.png)
+ ![directed to /register ](static/images/image3.png)
  
  Once register I can add the goals by going to Add Goals
  
-![goals added are displayed on the main page ](statics/images/image5.png)
-![goals added are displayed on the main page ](statics/images/image6.png)
+![goals added are displayed on the main page ](static/images/image5.png)
+![goals added are displayed on the main page ](static/images/image6.png)
 
 Goals can be modified and marked as done or erased in similar way. This will modify the goals dataset accordingly.
 
-![goals marked as complited](statics/images/image7.png)
+![goals marked as complited](static/images/image7.png)
 
 Errors are accounted accordingly as in this case after trying to log in with an incorrect password. 
-![goals marked as complited](statics/images/image8.png)
+![goals marked as complited](static/images/image8.png)
 
 ## Important Security Considerations 
 The passwords from the users are hashed before to be saved using werkzeug. No password is never directly stored 
