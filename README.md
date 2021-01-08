@@ -1,4 +1,4 @@
-# GOAL TRACKING V1.0
+# GOAL TRACKING V 1.0
 
 V 1.0 :initial release of a web application to track project goals.
 
@@ -45,19 +45,17 @@ Errors are accounted accordingly as in this case after trying to log in with an 
 ![goals marked as complited](static/images/image8.png)
 
 ## Important Security Considerations 
-The passwords from the users are hashed before to be saved using werkzeug. No password is never directly stored 
+
+The passwords from the users are hashed before saved using ![werkzeug] (https://werkzeug.palletsprojects.com/en/1.0.x/). Passwords are never directly stored. 
 To ensure privacy of the data the application uses POST requests.
+
 ## Conclusions
+This first version covers:
+  - security issues such as how to hash passwords prior to saving in the database and how to use POST request to ensure privacy.
+  - (simplistic) error reporting of user errors that can be easily recogniced. 
+  - web application design using Bootstrap  
+# Next steps for V 1.1 
+Usage of Postgress and SQLAlchemy libraries instead of CS50 libraries. Reactive JS 
 
-This is a first version but I learned:
-  - the importance of handling security issues. how to hash passwords prior to saving in the database and how to use POST request to ensure privacy.
-  - the importance of reporting user errors that can be easily recogniced. 
-  - web application design using Bootstrap
-  - debugging
-  - debugging
-  - start AND finish a working product
-  - 
-I totally enjoyed this V1.0 an I will have loved to have more time. V1.1 will be comming but not part of this subbmission.
-
-Thanks to Prof David Malan, Brian Yu and Doug Lloyd and to everybody else that made CS50 possible.
- 
+## Acnowledgements
+Thanks to Prof. David Malan, Brian Yu and Doug Lloyd from CS50
