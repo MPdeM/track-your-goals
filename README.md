@@ -2,7 +2,7 @@
 
 V 1.0 :initial release of a web application to track project goals.
 
-##GOAL
+## GOAL
 The goal of this project is create web application using Flask to track project goals using login functionality. 
 
 ## STEPS to create a Web Application
