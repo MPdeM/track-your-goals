@@ -8,6 +8,7 @@ from werkzeug.exceptions import default_exceptions, HTTPException, InternalServe
 from werkzeug.security import check_password_hash, generate_password_hash
 
 from helpers import apology, login_required
+# for a list of error codes go to https://www.restapitutorial.com/httpstatuscodes.html
 
 # Configure application
 app = Flask(__name__)
@@ -69,7 +70,7 @@ def set_goals():
     if request.method == "POST":
         # check that there is an entry
         if not request.form.get("goal_name") :
-            return apology("goal cannot be empty")
+            return apology("goal cannot be empty", 406)
 
         goal_name = request.form.get("goal_name")
         goal_notes = request.form.get("goal_notes")
