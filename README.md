@@ -2,7 +2,24 @@
 
 V 1.0 :initial release of a web application to track project goals.
 
-The goal of this project is create web application using Flask to track goals using login functionality.
+##GOAL
+The goal of this project is create web application using Flask to track project goals using login functionality. 
+
+## STEPS to create a Web Application
+The following steps are normally followed: 1) define the user goals and developer goals, 2) design the API, 3) implementation, 4) testing, 5) monitoring and iteration.
+
+Althought this is a very simple web application, I found very useful to think about each step as it was a product to be released. With this in mind, the user's goals and requirements were scale down to be able to "release" a working version. 
+
+1) defining the goal/s 
+- an application that will track user goals along with some comments.
+- application should be personalized and secure
+
+2)Design
+When designing an application, regardles of the architectural style, there are several requirements to take into account: security, reliability, scalability, testability, and usability. 
+In this case I used REST architecture. It is easy and relies on HTTP protocol. It follows six constrains (Separation of client and server, Statelessness, Multiple communication layers between server and client, Uniform UI, Code on request). Security is also an important part of the design (user identification, autentication, autorization and encryption) 
+
+## Build API
+It is time to build this basic application. The application should have endpoints that are nouns '/www.website.com/index' and the verb part is in the HTTP methods and headers such as GET or POSt. The exceptions and errors should be also be handled. A list of status codes can be found ![here](https://www.restapitutorial.com/httpstatuscodes.html). Other elements to consider are caching, performance optimization, documentation, versions.. 
 
 Flask web aplication distribuyion code:
 
@@ -21,6 +38,8 @@ One of the common design patters is MVC - Model View Controller -
   ![Prof David Malan CS50 Harvard](static/images/MVC_DesignPatern.png)
 
 I used CD50 IDE. It will only required instalation and it can be runned on your local host http://localhost:8080/.
+
+
 
 ## Run flask application
 
