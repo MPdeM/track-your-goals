@@ -42,8 +42,9 @@ Goals can be modified and marked as done or erased in similar way. This will mod
 ![goals marked as complited](static/images/image7.png) 
 ![goals marked as complited](static/images/image8.png)
 
-Errors are accounted accordingly as in this case after trying to log in with an incorrect password. 
-![log in error](static/images/image9.png)
+Response Codes: Responses from the server contain status codes to alert the user. A list of status code can be found ![here](https://www.restapitutorial.com/httpstatuscodes.html). 
+
+![Status code and error response after incorrect password](static/images/image9.png)
 
 ## Important Security Considerations 
 
